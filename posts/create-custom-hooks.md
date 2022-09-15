@@ -35,7 +35,7 @@ const useForm = (initialState = {}) => {
 
 ```
 **Our new custom hook used in a form component**
-```
+```c
 const LoginForm = () => {
     const { formData, handleInputChange } = useForm(
         {
